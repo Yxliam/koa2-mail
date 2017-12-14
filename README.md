@@ -1,7 +1,7 @@
 ### koa2-mail
 #### 一个基于koa2的 邮箱验证激活的登录注册的例子数据库使用mongoodb
 
-#### 克隆下来 git@github.com:yxl720/koa2-mail.git
+#### 克隆下来 git clone git@github.com:yxl720/koa2-mail.git
 ```
 1.安装相关的包
   npm install 
