@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+        <ul class="nav nav-tabs">
+                <li role="presentation" <% if(router == 'index') {%>class="active" <% } %>><a href="/">Home</a></li>
+                <li role="presentation" <% if(router == 'login') {%>class="active" <% } %>><a href="/login">登录</a></li>
+                <li role="presentation" <% if(router == 'register') {%>class="active" <% } %>><a href="/register">注册</a></li>
+              </ul>
